@@ -10,4 +10,4 @@ RUN apt-get update -y && \
 	git clone https://git.coding.net/trk/MINECRAFT0.14.X.git 
 WORKDIR "/M*"
 CMD g.sh
-EXPOSE $SERVER_PORT
+
