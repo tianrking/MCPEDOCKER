@@ -8,6 +8,6 @@ RUN apt-get update -y && \
 	apt-get install git -y && \
 	apt-get clean && \
 	git clone https://git.coding.net/trk/MINECRAFT0.14.X.git 
-WORKDIR "/M*"
+WORKDIR "M*"
 CMD ./g.sh
 EXPOSE 19312
